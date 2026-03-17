@@ -24,7 +24,7 @@ const Navbar = () => {
      {/* CENTER */}
      <div className='px-14 flex flex-row gap-10'>
      
-      <div className='gap-2 flex flex-row justify-center items-center'><Home className='size-5' /> Home</div> 
+      <Link href={"/"} className='gap-2 flex flex-row justify-center items-center'><Home className='size-5' /> Home</Link> 
       <Link href={"/notifications"} className='gap-2 flex flex-row justify-center items-center'><BellIcon className='size-5' /> Notifications</Link> 
       <Link href={"/profile"} className='gap-2 flex flex-row justify-center items-center'><CircleUserRound className='size-5' /> Profile</Link> 
      </div>
